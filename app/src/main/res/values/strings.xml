@@ -2,4 +2,12 @@
     <string name="app_name">NaTour</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="la_tua_prossima_avventura_inizia_ora">La tua prossima avventura inizia ora!</string>
+    <string name="crea_i_tuoi_itinerari_e_vivi_nuove_esperienze">Crea i tuoi itinerari e vivi nuove esperienze</string>
+    <string name="hai_gi_un_account">Hai già un account ?</string>
+    <string name="accedi">Accedi</string>
+    <string name="accedi_direttamente_con">accedi direttamente con</string>
+    <string name="oppure">oppure</string>
+    <string name="crea_il_tuo_account">Crea il tuo account</string>
+    <string name="logo">Logo</string>
 </resources>
