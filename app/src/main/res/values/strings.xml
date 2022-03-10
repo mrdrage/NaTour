@@ -11,4 +11,6 @@
     <string name="crea_il_tuo_account">Crea il tuo account</string>
     <string name="logo">Logo</string>
     <string name="samplelogo">samplelogo</string>
+    <string name="accedi_schermata_accesso">Button</string>
+    <string name="accedi">Accedi</string>
 </resources>
