@@ -3,11 +3,23 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/mainActivity">
-
-    <activity
-        android:id="@+id/mainActivity"
-        android:name="com.example.natour.MainActivity"
-        android:label="activity_main"
-        tools:layout="@layout/activity_main" />
+    app:startDestination="@id/schermataIniziale">
+    <fragment
+        android:id="@+id/schermataAccesso"
+        android:name="com.example.natour.SchermataAccesso"
+        android:label="fragment_schermata_accesso"
+        tools:layout="@layout/fragment_schermata_accesso" >
+        <action
+            android:id="@+id/action_schermataAccesso_to_schermataIniziale"
+            app:destination="@id/schermataIniziale" />
+    </fragment>
+    <fragment
+        android:id="@+id/schermataIniziale"
+        android:name="com.example.natour.SchermataIniziale"
+        android:label="fragment_schermata_iniziale"
+        tools:layout="@layout/fragment_schermata_iniziale" >
+        <action
+            android:id="@+id/action_schermataIniziale_to_schermataAccesso"
+            app:destination="@id/schermataAccesso" />
+    </fragment>
 </navigation>
